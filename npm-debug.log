@@ -1,0 +1,52 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'E:\\nodejs\\\\node.exe',
+1 verbose cli   'E:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.34
+4 verbose node symlink E:\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ 'E:\\angular-basic', [ 'express', 'ejs' ] ]
+7 info preinstall application-name@0.0.1
+8 verbose readDependencies using package.json deps
+9 verbose already installed skipping express@3.2.2 E:\angular-basic
+10 verbose already installed skipping ejs@* E:\angular-basic
+11 silly resolved []
+12 info build E:\angular-basic
+13 verbose linkStuff [ false, false, false, 'E:\\' ]
+14 info linkStuff application-name@0.0.1
+15 verbose linkBins application-name@0.0.1
+16 verbose linkMans application-name@0.0.1
+17 verbose rebuildBundles application-name@0.0.1
+18 verbose rebuildBundles [ '.bin', 'bowser', 'ejs', 'express' ]
+19 verbose rebuild bundle E:\angular-basic\node_modules\bowser
+20 info build E:\angular-basic\node_modules\bowser
+21 info preinstall bowser@0.7.2
+22 verbose linkStuff [ false, false, false, 'E:\\angular-basic\\node_modules' ]
+23 info linkStuff bowser@0.7.2
+24 verbose linkBins bowser@0.7.2
+25 verbose linkMans bowser@0.7.2
+26 verbose rebuildBundles bowser@0.7.2
+27 info install bowser@0.7.2
+28 info postinstall bowser@0.7.2
+29 info install application-name@0.0.1
+30 info postinstall application-name@0.0.1
+31 verbose unsafe-perm in lifecycle true
+32 info application-name@0.0.1 Failed to exec postinstall script
+33 error application-name@0.0.1 postinstall: `bower install`
+33 error Exit status 1
+34 error Failed at the application-name@0.0.1 postinstall script.
+34 error This is most likely a problem with the application-name package,
+34 error not with npm itself.
+34 error Tell the author that this fails on your system:
+34 error     bower install
+34 error You can get their info via:
+34 error     npm owner ls application-name
+34 error There is likely additional logging output above.
+35 error System Windows_NT 6.1.7601
+36 error command "E:\\nodejs\\\\node.exe" "E:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+37 error cwd E:\angular-basic
+38 error node -v v0.10.34
+39 error npm -v 1.4.28
+40 error code ELIFECYCLE
+41 verbose exit [ 1, true ]
